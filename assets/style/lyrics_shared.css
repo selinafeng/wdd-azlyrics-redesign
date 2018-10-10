@@ -1,0 +1,50 @@
+body {
+  background:#eeeeee;
+}
+
+#navbar {
+  background: #1E2749;
+  color: white;
+  display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+  padding-right: 50px;
+}
+
+#img {
+  width: 800px;
+  object-fit: fill;
+
+}
+
+#button{
+	margin-top: 24px;
+	padding-top:12px;
+	padding-bottom:12px;
+	background-color: #104F55;
+	color:white;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+
+
+
+#lyrics {
+  /* display: flex;
+  text-align: center; */
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 100px;
+  line-height: 2.8;
+}
+
+#footer {
+  /* display:flex;
+  flex-direction: row; */
+  background: #1E2749;
+  color: white;
+  width: 1000px;
+  display: flex;
+  align-items: flex-end;
+
+}
