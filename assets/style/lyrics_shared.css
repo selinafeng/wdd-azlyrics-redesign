@@ -11,14 +11,14 @@ body {
   background:#eeeeee;
 }
 
-#navbar {
+/* #navbar {
   background: #1E2749;
   color: white;
   display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
   padding-right: 50px;
-  height: 50px;
+  height: 50px; */
 }
 
 #img {

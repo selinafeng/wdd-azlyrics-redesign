@@ -1,9 +1,16 @@
-nav {
+/* body, h1, h2, h3, h4, h5, p {
+  font-family: 'Muli', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+} */
+/* nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   background-color: #273469;
-}
+} */
 h4 {
   line-height: 0px;
   font-size: 4;
@@ -15,11 +22,11 @@ input {
   border-radius: 3px;
   margin: 5px 10px;
 }
-#menu {
+/* #menu {
   margin: 5px;
   padding: 3px 20px;
   background-color: white;
-}
+} */
 
 .Content{
   margin: 5px;

@@ -1,0 +1,44 @@
+body, h1, h2, h3, h4, h5, p {
+  font-family: 'Muli', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #273469;
+}
+input {
+  margin: 8px;
+  padding: 8px;
+  width: 40%;
+  border-radius: 3px;
+  margin: 8px 16px;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+#legal {
+  height: 10%;
+  width: 100%;
+  background-color: #1E2749;
+  margin-top: 120px;
+  overflow: auto;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 12px;
+}
+.menu-item {
+  margin: 0 8px;
+  padding: 8px;
+}
+.menu-text {
+  text-decoration: none;
+  color: white;
+}
