@@ -1,15 +1,23 @@
 body, h1, h2, h3, h4, h5, p {
   font-family: 'Muli', sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: #273469;
 }
 img {
   width: 100%;
   height: 100%;
+}
+h1 {
+  font-size: 80px;
+  line-height: 5px;
 }
 h4 {
   line-height: 0px;
@@ -18,29 +26,82 @@ p {
   line-height: 0px;
 }
 input {
-  margin: 5px;
-  padding: 5px;
-  width: 25%;
+  margin: 8px;
+  padding: 8px;
+  width: 40%;
   border-radius: 3px;
-  margin: 5px 10px;
+  margin: 8px 16px;
+}
+#content {
+  margin-bottom: 30px;
+  overflow: auto;
 }
 #menu {
-  margin: 5px;
-  padding: 3px 20px;
-  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
 }
 #title {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 80px;
+}
+#legal {
+  height: 15%;
+  width: 100%;
+  background-color: #1E2749;
+  margin-top: 120px;
+  overflow: auto;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 12px;
+}
+#contact-icons {
+  position: fixed;
+  display: flex;
+  height: 100px;
+  margin: 32px 16px;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #1E2749;
+}
+.menu-item {
+  margin: 0 8px;
+  padding: 8px;
+}
+.menu-text {
+  text-decoration: none;
+  color: white;
+}
+.description-text {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 32px;
 }
 .album-cover-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  overflow:visible;
+}
+.album {
+  padding: 8px;
+}
+.album-label {
+  margin-left: 8px;
+}
+.album-label:hover {
+  color: #E4D9FF;
 }
 .album-cover {
-  height: 200px;
-  width: 200px;
-  margin: 5px;
+  height: 160px;
+  width: 160px;
+}
+.album-cover:hover {
+  opacity: 0.7;
+}
+.artist-name {
+  font-size: 12px;
 }
