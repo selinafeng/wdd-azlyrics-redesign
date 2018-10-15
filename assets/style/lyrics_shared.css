@@ -1,29 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Muli', sans-serif;
-}
-
-body {
-  background:#eeeeee;
-}
-
-/* #navbar {
-  background: #1E2749;
-  color: white;
-  display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-  padding-right: 50px;
-  height: 50px; */
-}
-
 #img {
   width: 100%;
-
 }
 
 #button{
@@ -53,5 +29,4 @@ body {
   height: 50px;
   background: #1E2749;
   color: white;
-
 }
